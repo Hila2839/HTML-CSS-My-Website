@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'merriweather', serif;
+    color: #40514e;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    position: relative;
+    top: 25%;
+    color: #658864;
+    font-family: 'sacramento', cursive;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: 'montserrat', sans-serif;
+    position: relative;
+    font-size: 2.5rem;
+    color: #658864;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+h3 {
+    color: grey;
+    font-family: 'montserrat', sans-serif;
+    margin: 50px auto;
+}
+
+hr {
+    border-style: none;
+    height: 0px;
+    border-top-style: dotted;
+    border-color: #EEEEEE;
+    border-width: 10px;
+    width: 5%;
+    margin: 50px auto 50px auto;
+}
+
+
+.profile {
+    width: 50%;
+    margin: 50px auto;
+
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.mid-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #E5E0FF;
+    margin-top: 50px;
+    padding: 50px 0 20px;
+}
+
+a {
+    color: #11999e;
+    font-family: 'montserrat', sans-serif;
+    text-decoration-line: none;
+    text-shadow: #0e110e;
+}
+
+a:hover {
+    color: #66bdec;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 15%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: ;
+}
+
+.skill-row {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.programming {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.langs {
+    margin-bottom: 100px;
+}
+
+.projects {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.myButton {
+    background-color: #7892c2;
+    border-radius: 28px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'montserrat', sans-serif;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+    margin-top: 50px;
+}
+
+.myButton:hover {
+    background-color: #476e9e;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.footer-link {
+    color: #0e110e;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
